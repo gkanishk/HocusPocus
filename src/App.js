@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react';
+import React,{useEffect} from 'react';
 import Shape from './Component/Shape'
 import './App.css';
 
@@ -11,21 +11,19 @@ function App() {
       {var xv=parseInt(`${e.x}`)-parseInt(`${e.target.offsetLeft}`);
       var yv=(parseInt(`${e.target.offsetTop}`)+parseInt(`${e.target.offsetHeight}`))-parseInt(`${e.y}`);
       document.getElementById('sdata').innerHTML=`X: ${xv} Y: ${yv}`
-      console.log(xv+" "+x);
-      if(xv==x&&yv==y)
+      if(xv===x&&yv===y)
       {
         alert("Congratulations")
       }
     }
     })
-  }, []);
+  }, [x,y]);
 
   const generateCord=()=>
   {
     x=(Math.floor(Math.random()*300));
     y=(Math.floor(Math.random()*300));
     document.getElementById("showCd").innerHTML=`X: ${x} Y: ${y}`;
-    console.log(x+" "+y);
   }
   return (
     <div className="App">
