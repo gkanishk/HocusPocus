@@ -45,3 +45,26 @@ h4{
 #showCd{
     font-weight: 500;
 }
+
+@media screen and (max-width:600px){
+    .shapeC{
+        position: absolute;
+        top:25%;
+        left: 9%;
+        color: black;
+        background-color: aliceblue;
+        height: 300px;
+        width: 300px;
+        border-radius:7px ;
+        border-style: solid;
+    }
+    h4{
+        left: 4%;
+    }
+    h2{
+        left: 30%;
+    }
+    .getData{
+        left: 35%;
+    }
+}
