@@ -33,7 +33,7 @@ function App() {
         <button id="btn" onClick={()=>generateCord()}>Generate</button>
       </div>
       <Shape/>
-      <h4>I am weak in maths please find help me find co-ordinates.</h4>
+      <h4>I am weak in maths please help me find co-ordinates.</h4>
     </div>
   );
 }
