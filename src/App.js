@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-      <h2>Hocus Pocus</h2>
+      <h2>Hocus Focus</h2>
       <div className="getData">
         <div className="showCord" id="showCd">Start</div>
         <button id="btn" onClick={()=>generateCord()}>Generate</button>
