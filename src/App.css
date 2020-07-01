@@ -1,43 +1,44 @@
+body{
+    background-color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
 .App{
     text-align: center;
-    width: 100%;
-    height: 100%;
+    height: 100vh;
 }
-h2{
-    position: absolute;
-    left: 43%;
-}
-h4{
-    position: absolute;
-    top: 80%;
-    left: 32%;
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 #btn{
-    color: rgba(85, 72, 72, 0.918);
-    background-color: rgb(235, 215, 174); 
-    border-radius: 7px;
+    color: black;
+    background-color:transparent; 
+    border-radius: 5px;
+    border-style: solid;
+    border-color: red;
+}
+#btn:hover{
+    background-color: red;
 }
 .getData{
-    position: absolute;
-    top: 12%;
-    left: 44%;
     width: 100px;
     height: 50px;
-    /* height: max-content; */
     background-color: rgb(246, 187, 59);
     padding: 5px;
     border-radius: 7px;
+    margin: 10px;
 }
 .shapeC{
-    position: absolute;
-    top:25%;
-    left: 35%;
     color: black;
     background-color: aliceblue;
     height: 350px;
     width: 350px;
     border-radius:7px ;
     border-style: solid;
+    margin: 10px;
 }
 #sdata{
     font-weight: 700;
@@ -48,23 +49,11 @@ h4{
 
 @media screen and (max-width:600px){
     .shapeC{
-        position: absolute;
-        top:25%;
-        left: 9%;
         color: black;
         background-color: aliceblue;
         height: 300px;
         width: 300px;
         border-radius:7px ;
         border-style: solid;
-    }
-    h4{
-        left: 4%;
-    }
-    h2{
-        left: 30%;
-    }
-    .getData{
-        left: 35%;
-    }
+    } 
 }

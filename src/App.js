@@ -27,6 +27,7 @@ function App() {
   }
   return (
     <div className="App">
+      <div className="container">
       <h2>Hocus Pocus</h2>
       <div className="getData">
         <div className="showCord" id="showCd">Start</div>
@@ -34,6 +35,7 @@ function App() {
       </div>
       <Shape/>
       <h4>I am weak in maths please help me find co-ordinates.</h4>
+      </div>
     </div>
   );
 }
