@@ -1,7 +1,26 @@
 body{
-    background-color: yellow;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-image: url(./assets/img6.jpg); */
+    
+    background: url(./assets/img8.jpg);
+    background-size: cover;
+}
+h2{
+    color: #fffade;
+    border-style: double;
+    border-radius: 7px;
+    border-color: darkcyan;
+    padding: 5px;
+}
+h4{
+    background-color: rgb(167, 208, 209);
+    padding: 0;
+    width: initial;
+    border-radius: 7px;
+    opacity: 90%;
+    color: rgb(40, 40, 75);
+    border-style: dashed;
 }
 .App{
     text-align: center;
@@ -18,18 +37,19 @@ body{
     background-color:transparent; 
     border-radius: 5px;
     border-style: solid;
-    border-color: red;
+    border-color: rgb(40, 40, 75);
 }
 #btn:hover{
-    background-color: red;
+    background-color:grey;
 }
 .getData{
     width: 100px;
     height: 50px;
-    background-color: rgb(246, 187, 59);
+    background-color:whitesmoke;
     padding: 5px;
     border-radius: 7px;
     margin-top: 5px;
+    border-style: dashed;
 }
 .shapeC{
     color: black;
@@ -39,6 +59,7 @@ body{
     border-radius:7px ;
     border-style: solid;
     margin: 10px;
+    opacity: 70%;
 }
 #sdata{
     font-weight: 700;
