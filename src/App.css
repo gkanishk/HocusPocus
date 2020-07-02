@@ -2,9 +2,9 @@ body{
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background-image: url(./assets/img6.jpg); */
-    
-    background: url(./assets/img8.jpg);
-    background-size: cover;
+    background-color: #2E1643;
+    /* background: url(./assets/img8.jpg);
+    background-size: cover; */
 }
 h2{
     color: #fffade;
@@ -12,15 +12,16 @@ h2{
     border-radius: 7px;
     border-color: darkcyan;
     padding: 5px;
+    border-width: thick;
 }
 h4{
-    background-color: rgb(167, 208, 209);
+    background-color:#CEC2D8;
     padding: 0;
     width: initial;
     border-radius: 7px;
     color: rgb(40, 40, 75);
     border-style: dashed;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .App{
     text-align: center;
@@ -33,11 +34,11 @@ h4{
     align-items: center;
 }
 #btn{
-    color: black;
+    color: aliceblue;
     background-color:transparent; 
     border-radius: 5px;
     border-style: solid;
-    border-color: rgb(40, 40, 75);
+    border-color: rgb(83, 83, 117);
 }
 #btn:hover{
     background-color:grey;
@@ -45,7 +46,8 @@ h4{
 .getData{
     width: 100px;
     height: 50px;
-    background-color:whitesmoke;
+    background-color:#51183D;
+    color: #CEC2D8;
     padding: 5px;
     border-radius: 7px;
     margin-top: 5px;
@@ -54,13 +56,15 @@ h4{
 }
 .shapeC{
     color: black;
-    background-color: aliceblue;
-    height: 350px;
-    width: 350px;
+    background-color: #FF5E3F;
+    height: 300px;
+    width: 300px;
     border-radius:7px ;
     border-style: solid;
+    border-width: medium;
     margin: 10px;
-    opacity: 0.8;
+    opacity: 0.7;
+    perspective: 1000px;
     
 }
 #sdata{
@@ -70,7 +74,7 @@ h4{
     font-weight: 500;
 }
 
-@media screen and (max-width:600px){
+/* @media screen and (max-width:600px){
     .shapeC{
         color: black;
         background-color: aliceblue;
@@ -79,4 +83,4 @@ h4{
         border-radius:7px ;
         border-style: solid;
     } 
-}
+} */
