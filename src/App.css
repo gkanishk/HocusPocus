@@ -2,26 +2,27 @@ body{
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background-image: url(./assets/img6.jpg); */
-    background-color: #2E1643;
+    background-color: #6FFFE9;
     /* background: url(./assets/img8.jpg);
     background-size: cover; */
 }
 h2{
-    color: #fffade;
+    background-color: #fffffE;
+    color: #1C2541;
     border-style: double;
     border-radius: 7px;
-    border-color: darkcyan;
+    border-color: #1C2541;
     padding: 5px;
     border-width: thick;
 }
 h4{
-    background-color:#CEC2D8;
-    padding: 0;
+    background-color:#fffffE;
+    padding: 5px;
     width: initial;
     border-radius: 7px;
-    color: rgb(40, 40, 75);
-    border-style: dashed;
-    opacity: 0.8;
+    color: #1C2541;
+    border-style: solid;
+    opacity: 0.9;
 }
 .App{
     text-align: center;
@@ -34,11 +35,11 @@ h4{
     align-items: center;
 }
 #btn{
-    color: aliceblue;
+    color: #0B132B;
     background-color:transparent; 
     border-radius: 5px;
     border-style: solid;
-    border-color: rgb(83, 83, 117);
+    border-color: #0B132B;
 }
 #btn:hover{
     background-color:grey;
@@ -51,7 +52,7 @@ h4{
     text-align: center;
 }
 .showTime{
-color: #CEC2D8;
+color: #1C2541;
 padding: 10px;
 margin: 5px;
 margin-left: 15px;
@@ -62,24 +63,24 @@ font-weight: 700;
 .getData{
     width: 100px;
     height: 50px;
-    background-color:#51183D;
-    color: #CEC2D8;
+    background-color:#c5fff2;
+    color: #1C2541;
     padding: 5px;
     border-radius: 7px;
     margin-top: 5px;
-    border-style: dashed;
-    opacity: 0.7;
+    border-style: solid;
+   
 }
 .shapeC{
-    color: black;
-    background-color: #FF5E3F;
+    color: #c5fff2;
+    background-color: #1C2541;
     height: 300px;
     width: 300px;
+    border-color: aqua;
     border-radius:7px ;
     border-style: solid;
     border-width: medium;
     margin: 10px;
-    opacity: 0.7;
     perspective: 1000px;
     
 }

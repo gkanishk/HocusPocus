@@ -38,7 +38,7 @@ function App() {
       }
     }
     })   
-  }, [f]);
+  }, [x,y]);
 
   const generateCord=()=>
   {
@@ -64,6 +64,7 @@ function App() {
       <h4>I am weak in maths please help me find co-ordinates.<br/><h5>Hover to match the values</h5></h4>
       
       </div>
+      <footer></footer>
     </div>
   );
 }
