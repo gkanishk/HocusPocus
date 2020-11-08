@@ -28,5 +28,5 @@ Will load at:
 
 `localhost:3000`
 
-### Licensing:
-[![license](https://img.shields.io/bower/l/react?style=for-the-badge)](/LICENSE)
+### License:
+[![license](https://img.shields.io/bower/l/react?style=for-the-badge)](LICENSE)
